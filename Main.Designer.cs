@@ -50,6 +50,7 @@
             getPlayerIdButton = new Button();
             gameControlPanel = new GroupBox();
             button1 = new Button();
+            CatWall = new Button ();
             runCapuchinButton = new Button();
             mainStatusReporter.SuspendLayout();
             managerTabControl.SuspendLayout();
@@ -69,6 +70,12 @@
             mainStatusReporter.TabIndex = 0;
             mainStatusReporter.Text = "statusStrip1";
             // 
+            //CatWall
+            //
+            CatWall.Text = "CatWall yay!";
+            CatWall.Size = new Size(100, 23);
+            CatWall.Image = null;
+            //
             // taskLabel
             // 
             taskLabel.Name = "taskLabel";
